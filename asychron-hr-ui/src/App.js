@@ -1,14 +1,21 @@
 // import logo from './logo.svg';
 import './App.css';
+import Dashboard from './modules/Dashboard/News/News';
+import Dates from './modules/Dashboard/Dates/Dates';
+import Progress from './modules/Dashboard/circularProgress/circularProgress';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Welcome to Asychron HR Portal</h1>
-        <h2>Hello its testing of github </h2>
+    <div>
+      <header >
+        <Dashboard />
+        <Dates />
+        <Progress />
       </header>
-    </div>
+      </div>
+      
+      
+  
   );
 }
 
