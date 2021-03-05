@@ -1,15 +1,16 @@
-// import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
 
-function App() {
+import Layout from './hoc/Layout/Layout';
+
+class App extends Component {
+  
+  render () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Welcome to Asychron HR Portal</h1>
-        <h2>Hello its testing of github </h2>
-      </header>
-    </div>
+   <div>
+    <Layout /> 
+   </div>
   );
+ }
 }
 
 export default App;
