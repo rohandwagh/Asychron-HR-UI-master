@@ -1,11 +1,10 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
+import { Card, Media } from 'react-bootstrap';
 import './card.css';  
 import leave from '../../../../assets/download.jpeg'; 
 import birthday from '../../../../assets/birthday.jpg';
 import Holiday from '../../../../assets/Holiday.jpg';
 import payroll from '../../../../assets/payroll.jpg';
-
 
 const Cards = (props) => {
 const dates=new Date();
@@ -17,9 +16,9 @@ let months=["January", "February", "March", "April", "May", "June", "July", "Aug
 
 
 return(
-    <div className='date' style={{marginLeft:'700px',marginTop:'-110px'}}>
-    <div>
-    <Card style={{ margin:'30px',width: '18rem'}}>
+    <div style={{marginLeft:'700px',marginTop:'-110px'}}>
+    <div className='Date' >
+    <Card style={{ borderColor:'black',margin:'30px',width: '18rem'}}>
         <Card.Body>
         <Card.Img src={leave} style={{padding:'10px',zIndex:'1',objectFit:'cover'}}></Card.Img>
             <Card.Title>Next Leave</Card.Title>
@@ -31,7 +30,7 @@ return(
 </Card>
 </div>
 <div>
-<Card style={{ margin:'30px',width: '18rem' }}>
+<Card style={{borderColor:'black', margin:'30px',width: '18rem' }}>
   <Card.Body>
   <Card.Img src={Holiday} style={{padding:'10px',zIndex:'1',objectFit:'cover'}}></Card.Img>
     <Card.Title>Next Holiday</Card.Title>
@@ -43,7 +42,7 @@ return(
 </Card>
 </div>
 <div>
-<Card style={{ marginLeft:'350px',marginTop:'-615px',top:'0px',width: '18rem' }}>
+<Card style={{borderColor:'black', marginLeft:'350px',marginTop:'-615px',top:'0px',width: '18rem' }}>
   <Card.Body>
   <Card.Img src={birthday} style={{padding:'10px',zIndex:'1',objectFit:'cover'}}></Card.Img>
     <Card.Title>Next Birthday</Card.Title>
@@ -55,7 +54,7 @@ return(
 </Card>
 </div>
 <div>
-<Card style={{marginLeft:'350px', marginTop:'30px',width: '18rem' }}>
+<Card style={{borderColor:'black',marginLeft:'350px', marginTop:'30px',width: '18rem' }}>
   <Card.Body>
   <Card.Img src={payroll} style={{padding:'10px',zIndex:'1',objectFit:'cover'}}></Card.Img>
     <Card.Title>Next Payroll</Card.Title>

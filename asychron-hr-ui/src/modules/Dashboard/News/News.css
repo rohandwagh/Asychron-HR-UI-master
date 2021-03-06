@@ -9,7 +9,7 @@ body{
 }
 .dropdown-menu{
     width: 45%;
-    height: 300%;
+    height: 100%;
     min-height: 120%;
     border-color: black;
 }

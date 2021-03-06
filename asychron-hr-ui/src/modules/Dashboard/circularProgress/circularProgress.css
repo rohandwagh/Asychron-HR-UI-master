@@ -1,8 +1,8 @@
-.class1{
+.container{
     padding: '20px';
     width: '20%';
-    top: '0';
-    right:'100';
+    margin-top: '0px';
+    right:'0';
     margin-left: '200px';
 
 }

@@ -1,8 +1,8 @@
-@media(max-width:400px){
-    .date{
+@media(width:400px){
+    .Card{
         margin: '0px';
         width: '5rem';
-        margin-right: '50%';
+        margin-right:'500px';
     }
 
 }
