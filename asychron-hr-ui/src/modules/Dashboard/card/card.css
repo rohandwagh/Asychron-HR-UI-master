@@ -1,0 +1,33 @@
+.containt {
+	padding: 50px;
+	margin: 2px;
+	margin-left: 500px;
+}
+.card {
+	width: 15rem;
+	padding: 10px;
+	align-items: center;
+	background-image: linear-gradient(to right, #3be4497a, #2b60de);
+	border: black;
+	margin-top: 0px;
+	border-radius: 10%;
+	box-shadow: 10px 10px 10px;
+	margin: 0px;
+	height: 18rem;
+}
+.image {
+	border-radius: 5rem;
+	width: 140px;
+	height: 140px;
+}
+.main {
+	margin-top: -55px;
+	padding: 5px;
+	margin-left: 200px;
+}
+@media screen and (max-width: 1200px) {
+	.card {
+		margin-top: 50px;
+		padding: 0px;
+	}
+}

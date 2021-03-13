@@ -2,7 +2,7 @@ body {
 	background-color: white;
 }
 .btn {
-	margin-top: 100px;
+	margin-top: 40px;
 	margin-left: 80px;
 	width: 50%;
 	text-align: center;
@@ -15,7 +15,12 @@ body {
 	height: 100%;
 	min-height: 120%;
 	border: 5rem;
+	background-image: linear-gradient(to right, #4568dc, #b06ab3);
 }
 .container {
 	margin-left: '00px';
+}
+.container .DropdownButton {
+	background-color: black;
+	background-image: linear-gradient(to right, blue, green);
 }

@@ -1,8 +1,13 @@
-.container{
-    padding: '20px';
-    width: '20%';
-    margin-top: '0px';
-    right:'0';
-    margin-left: '200px';
-
+.circle {
+	padding: 10px;
+	margin-left: 200px;
+	margin-right: 600px;
+	margin-top: -450px;
+}
+@media screen and (max-width: 1200px) {
+	.circle {
+		margin: 50px;
+		padding: 10px;
+		margin-left: 30px;
+	}
 }
