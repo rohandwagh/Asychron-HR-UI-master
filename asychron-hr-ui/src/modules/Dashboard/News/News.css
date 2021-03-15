@@ -2,25 +2,25 @@ body {
 	background-color: white;
 }
 .btn {
-	margin-top: 40px;
+	margin-top: 100px;
 	margin-left: 80px;
 	width: 50%;
 	text-align: center;
+	
 }
 .btn-primary {
 	color: black;
 }
 .dropdown-menu {
 	width: 50%;
-	height: 100%;
-	min-height: 120%;
-	border: 5rem;
+	height: auto;
 	background-image: linear-gradient(to right, #4568dc, #b06ab3);
 }
 .container {
-	margin-left: '00px';
+	margin-left: '0px';
 }
 .container .DropdownButton {
 	background-color: black;
 	background-image: linear-gradient(to right, blue, green);
+	
 }

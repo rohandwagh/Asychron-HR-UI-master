@@ -19,7 +19,7 @@ return(
 <div className="main">
 <div className="d-flex flex-row-reverse bd-highlight">
   <div className="p-2 bd-highlight"> <Card className="card">
-              <Card.Img className="image" variant="top" src={Cake} />
+               {/* <Card.Img className="image" variant="top" src={Cake} />  */}
             <Card.Body>
               <Card.Title>Next Birthday</Card.Title>
               <Card.Text>
@@ -28,7 +28,7 @@ return(
             </Card.Body>
         </Card></div>
   <div className="p-2 bd-highlight"><Card className="card">
-              <Card.Img className="image" variant="top" src={Holiday} />
+              {/* <Card.Img className="image" variant="top" src={Holiday} /> */}
             <Card.Body>
               <Card.Title>Next Holiday</Card.Title>
               <Card.Text>
@@ -39,7 +39,7 @@ return(
 </div>
 <div className="d-flex flex-row-reverse bd-highlight">
   <div className="p-2 bd-highlight"> <Card className="card">
-              <Card.Img className="image" variant="top" src={Payroll} />
+              {/* <Card.Img className="image" variant="top" src={Payroll} />  */}
             <Card.Body>
               <Card.Title>Next Payroll</Card.Title>
               <Card.Text>
@@ -48,7 +48,7 @@ return(
             </Card.Body>
         </Card></div>
   <div className="p-2 bd-highlight"><Card className="card">
-              <Card.Img className="image" variant="top" src={leave} />
+               {/* <Card.Img className="image" variant="top" src={leave} />  */}
             <Card.Body>
               <Card.Title>Next Leave</Card.Title>
               <Card.Text>

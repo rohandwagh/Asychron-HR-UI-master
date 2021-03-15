@@ -7,10 +7,13 @@ import Progress from './modules/Dashboard/circularProgress/circularProgress';
 function App() {
   return (
     <div>
-      
-          <Dashboard />
+           
+          <Progress />
           <Cards />
-         <Progress />
+          <Dashboard />
+          
+          
+         
 </div>
       
       

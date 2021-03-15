@@ -1,33 +1,39 @@
 .containt {
-	padding: 50px;
+	padding: 0px;
 	margin: 2px;
-	margin-left: 500px;
+	margin-left: 500px;	
+	align-items: center;
+	justify-content: center;
 }
 .card {
-	width: 15rem;
-	padding: 10px;
+	width: 12rem;
+	padding: 0px;
 	align-items: center;
 	background-image: linear-gradient(to right, #3be4497a, #2b60de);
 	border: black;
-	margin-top: 0px;
+	margin-top:0px;
 	border-radius: 10%;
 	box-shadow: 10px 10px 10px;
-	margin: 0px;
-	height: 18rem;
+	margin: 5px;
+	height: 7rem;
 }
-.image {
+/* .image {
 	border-radius: 5rem;
-	width: 140px;
-	height: 140px;
-}
+	width: 40px;
+	height: 40px;
+} */
 .main {
-	margin-top: -55px;
+	margin-top:-370px;
 	padding: 5px;
-	margin-left: 200px;
+	margin-left: 885px;
+	margin-right: 50px;
+	/* border: 2px solid; */
 }
-@media screen and (max-width: 1200px) {
-	.card {
-		margin-top: 50px;
+@media screen and (max-width:400px) {
+	.containt {
+		margin-top:1000px;
+		margin-left: -10px;
 		padding: 0px;
 	}
 }
+

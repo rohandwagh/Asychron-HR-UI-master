@@ -4,20 +4,22 @@ import './circularProgress.css';
 
 
 class ApexChart extends React.Component {
+  
   constructor(props) {
     super(props);
+
     this.state = {
     
-      series: [100,85,98,66],
+      series: [70],
       options: {
         chart: {
-          height: 350,
+          height: 150,
           type: 'radialBar',
         },
         plotOptions: {
           radialBar: {
             hollow: {
-              size: '20%',
+              size: '40%',
             }
           },
         },
@@ -27,33 +29,49 @@ class ApexChart extends React.Component {
           gradient: {
             shade: "dark",
             type: "vertical",
-            gradientToColors: ["","","",""],  
+            gradientToColors: ["blue","","",""], 
+             
             
             stops: [0, 100],
           }
         },
-        stroke: {
-          lineCap: "round"
-        },
-        labels: ['Task','Leaves','performance','status'],
-        //colors: ['green', 'blue', ' #95B9C7', ''],
+        padding: {
+          top: '0px',
+          right: '0px',
+          bottom: '0px',
+          left: '0px'
       },
-    
-      
-      };
-  }
-
-
-
+        stroke: {
+          lineCap: "round",
+        },
+        
+          colors: ['red', '#E91E63'],
+        
+        
+        labels:['Task','performance'],
+        
+      },
+    };
+}
   render() {
     return (
-      
-
-<div  className="circle" id="chart">
-<ReactApexChart  options={this.state.options} series={this.state.series} type="radialBar" height={350} />
+<div className="circle" id="chart">
+<div className="d-flex align-items-center">  
+  <ReactApexChart options={this.state.options} series={this.state.series} type="radialBar" height={200} />
+  <ReactApexChart options={this.state.options} series={this.state.series} type="radialBar" height={200}  />
+ 
 </div>
-);
-}
+<div className="d-flex align-items-center">
+   <ReactApexChart options={this.state.options} series={this.state.series} type="radialBar" height={200}  />
+  <ReactApexChart options={this.state.options} series={this.state.series} type="radialBar" height={200}/>
+  
+</div>
+
+  
+ 
+  
+</div>
+    );  
+    }
 }
 export default ApexChart;
-
